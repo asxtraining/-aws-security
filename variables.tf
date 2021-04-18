@@ -13,10 +13,7 @@ variable "environment" {}
 # Ubuntu Precise 12.04 LTS (x64)
 variable "aws_amis" {
   default = {
-  eu-west-1 = "ami-ecbbb706"
-  us-east-1 = "ami-0565af6e282977273"
-  us-west-1 = "ami-0ff7f191316dba328"
-  us-west-2 = "ami-0ba5dfee72d5bb9a1"
+  eu-west-1 = "ami-0dc3968196f28a80f"
   }
 }
 
